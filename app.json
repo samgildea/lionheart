@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Lionheart EQ2",
+    "slug": "lionheart-eq2",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon-light.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lionheart.eq2"
+    },
+    "android": {
+      "package": "com.lionheart.eq2",
+      "versionCode": 1
+    },
+    "description": ""
+  }
+}
